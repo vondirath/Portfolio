@@ -1,0 +1,235 @@
+/*Global*/
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}    * {
+    box-sizing: border-box; 
+    font-family: Geneva, Tahoma, Verdana, sans-serif; 
+    text-decoration: none; 
+}
+
+
+p,
+h1,
+h4,
+a {
+    color: #2d3c49; 
+}
+
+/*Head*/
+
+.logo {
+    max-height: 150px; 
+}
+
+
+.title {
+    text-align: right; 
+}
+
+
+header {
+    border-bottom: 0.25em solid #7d97ad; 
+    display: flex; 
+}
+
+
+header p {
+    margin-top: -20px; 
+}
+
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+
+/* Body */
+
+h4 {
+    font-size: 36px;  
+    margin: 5px 0 -5px 0; 
+}
+
+
+.feat {
+    font-size: 36px; 
+    margin: 0 0 5px 30px; 
+    color: #7d97ad; 
+}
+
+
+/*Footer */
+
+.social-button {
+    color: #2d3c49; 
+    height: 48px; 
+    width: 48px; 
+    text-decoration: none; 
+    font-size: 2em; 
+    border: 1px solid white; 
+    transition: 1s; 
+}
+
+
+@keyframes highlight {
+    0% {
+        background-color: white; 
+        color: #2d3c49; 
+    }
+    25% {
+        background-color: #ddF5fb; 
+        color: #949ba1; 
+    }
+    50% {
+        background-color: #bdebF8; 
+        color: #c8cccF; 
+    }
+    75% {
+        background-color: #7dd8f1; 
+        color: #dcdee1; 
+    }
+    100% {
+        background-color: #02b3e4; 
+        color: white; 
+    }
+}
+
+
+.social-button:hover {
+    border: 1px solid #2d3c49; 
+    border-radius: 4px; 
+    animation-name: highlight; 
+    animation-duration: 0.25s; 
+    background-color: #02b3e4; 
+    color: white; 
+}
+
+/* Grid */
+
+.thumbnail {
+    display: inline-block; 
+    height: auto; 
+    max-width: 100%; 
+    padding: 4px; 
+    min-width: 300px; 
+}
+
+
+img {
+    max-width: 100vw; 
+}
+
+/* media queries */
+
+@media screen and (min-width: 500px) {
+    .row {
+        display: flex; 
+    }
+    .col-4 {
+        text-align: center; 
+    }
+}
+
+
+@media screen and (min-width: 950px) {
+    .container {
+        width: 950px; 
+        margin: 0 auto 0 auto; 
+        overflow: hidden; 
+    }
+}
+
+
+/*Grid - row/columns*/
+
+.row {
+    width: 100%; 
+    margin-bottom: 20px; 
+    flex-wrap: wrap; 
+    height: auto; 
+}
+
+
+.col-1 {
+    width: 8.33%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-2 {
+    width: 16.66%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-3 {
+    width: 25%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-4 {
+    width: 33.33%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-5 {
+    width: 41.66%; 
+    position: relative; 
+    padding: 0 10px 0 10px;  
+}
+
+.col-6 {
+    width: 50%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+.col-7 {
+    width: 58.33%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-8 {
+    width: 66.66%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-9 {
+    width: 75%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-10 {
+    width: 83.33%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}
+
+
+.col-11 {
+    width: 91.66%; 
+    position: relative; 
+    padding: 0 10px 0 10px;  
+}
+
+
+.col-12 {
+    width: 100%; 
+    position: relative; 
+    padding: 0 10px 0 10px; 
+}

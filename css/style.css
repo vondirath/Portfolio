@@ -42,7 +42,8 @@ header p {
 
 .container {
     display: flex; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 
@@ -138,7 +139,6 @@ img {
     .container {
         width: 950px; 
         margin: 0 auto 0 auto; 
-        overflow: hidden; 
     }
 }
 
